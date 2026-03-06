@@ -9,8 +9,9 @@
     <title>Sobre mí | Carlos Felipe Gómez</title>
 
     <meta name="description"
-        content="Conoce a Carlos Felipe Gómez, estudiante de Ingeniería de Sistemas enfocado en desarrollo backend, automatización, bases de datos y ciberseguridad.">
-    <link rel="icon" href="favicon.ico"> 
+        content="Conoce a Carlos Felipe Gómez, Ingeniero de Sistemas enfocado en desarrollo backend, automatización, bases de datos y ciberseguridad.">
+
+    <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" href="styles.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
@@ -33,7 +34,13 @@
                     </a>
                 </h2>
 
-                <ul class="nav-links">
+                <!-- BOTON MENU MOBILE -->
+
+                <div class="menu-toggle" id="menu-toggle">
+                    ☰
+                </div>
+
+                <ul class="nav-links" id="nav-links">
 
                     <li><a href="skills.html">Habilidades</a></li>
                     <li><a href="projects.html">Proyectos</a></li>
@@ -50,45 +57,49 @@
     </header>
 
 
-    <!-- SOBRE MI -->
+    <main>
 
-    <section id="about">
+        <!-- SOBRE MI -->
 
-        <div class="container">
+        <section id="about">
 
-            <h2>Sobre mí</h2>
+            <div class="container">
 
-            <p class="about-text">
+                <h2>Sobre mí</h2>
 
-                Soy estudiante de <strong>Ingeniería de Sistemas</strong> con enfoque en desarrollo de software,
-                automatización de procesos y gestión de bases de datos. Me especializo en el diseño y desarrollo
-                de soluciones tecnológicas eficientes, escalables y orientadas a resolver problemas reales.
+                <p class="about-text">
 
-                <br><br>
+                    Soy <strong>Ingeniero de Sistemas y Computación</strong> con enfoque en desarrollo de software,
+                    automatización de procesos y gestión de bases de datos. Me especializo en el diseño y desarrollo
+                    de soluciones tecnológicas eficientes, escalables y orientadas a resolver problemas reales.
 
-                Tengo interés en áreas como <strong>ciberseguridad</strong>,
-                <strong>inteligencia artificial</strong> y
-                <strong>arquitectura de sistemas</strong>, donde la tecnología puede generar valor y mejorar
-                los procesos dentro de las organizaciones.
+                    <br><br>
 
-                <br><br>
+                    Tengo interés en áreas como <strong>ciberseguridad</strong>,
+                    <strong>inteligencia artificial</strong> y
+                    <strong>arquitectura de sistemas</strong>, donde la tecnología puede generar valor y mejorar
+                    los procesos dentro de las organizaciones.
 
-                Me motiva el <strong>aprendizaje continuo</strong>, el desarrollo de proyectos innovadores
-                y la aplicación de buenas prácticas de ingeniería para construir software confiable
-                y de alto impacto.
+                    <br><br>
 
-                <br><br>
+                    Me motiva el <strong>aprendizaje continuo</strong>, el desarrollo de proyectos innovadores
+                    y la aplicación de buenas prácticas de ingeniería para construir software confiable
+                    y de alto impacto.
 
-                Actualmente desarrollo proyectos enfocados en <strong>backend, APIs, automatización
-                    y análisis de datos</strong>, con el objetivo de fortalecer mis habilidades como
-                ingeniero de software y aportar soluciones tecnológicas útiles para empresas
-                y comunidades.
+                    <br><br>
 
-            </p>
+                    Actualmente desarrollo proyectos enfocados en
+                    <strong>backend, APIs, automatización y análisis de datos</strong>,
+                    con el objetivo de fortalecer mis habilidades como ingeniero de software
+                    y aportar soluciones tecnológicas útiles para empresas y comunidades.
 
-        </div>
+                </p>
 
-    </section>
+            </div>
+
+        </section>
+
+    </main>
 
 
     <!-- FOOTER -->
@@ -99,15 +110,20 @@
 
             <p>© 2026 Carlos Felipe Gómez</p>
 
-            <p>
+            <p class="footer-links">
+
                 <a href="https://github.com/CFelipeGomez" target="_blank">GitHub</a> |
                 <a href="https://www.linkedin.com/in/carlos-felipe-gp/" target="_blank">LinkedIn</a>
+
             </p>
 
         </div>
 
     </footer>
 
+    <script src="js/menu.js"></script>
+
 </body>
 
 </html>
+```

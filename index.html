@@ -6,14 +6,14 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Carlos F. Gómez | Ingeniero de Sistemas y Computacion</title>
+<title>Carlos F. Gómez | Ingeniero de Sistemas y Computación</title>
 
 <meta name="description"
 content="Portafolio profesional de Carlos Felipe Gómez, Ingeniero de Sistemas y Computación enfocado en desarrollo backend, bases de datos, ciberseguridad y automatización.">
 
 <meta name="author" content="Carlos Felipe Gómez">
 
-<link rel="icon" href="favicon.ico"> 
+<link rel="icon" href="favicon.ico">
 
 <link rel="stylesheet" href="styles.css">
 
@@ -24,7 +24,6 @@ content="Portafolio profesional de Carlos Felipe Gómez, Ingeniero de Sistemas y
 
 <body>
 
-
 <!-- NAVBAR -->
 
 <header>
@@ -34,12 +33,16 @@ content="Portafolio profesional de Carlos Felipe Gómez, Ingeniero de Sistemas y
 <div class="container nav-container">
 
 <h2 class="logo">
-    <a href="index.html">
-        <img src="images/LogoPerfil.png" alt="Logo Carlos Gómez" class="logo-img">
-    </a>
+<a href="index.html">
+<img src="images/LogoPerfil.png" alt="Logo Carlos Gómez" class="logo-img">
+</a>
 </h2>
 
-<ul class="nav-links">
+<div class="menu-toggle" id="menu-toggle">
+☰
+</div>
+
+<ul class="nav-links" id="nav-links">
 
 <li><a href="skills.html">Habilidades</a></li>
 <li><a href="projects.html">Proyectos</a></li>
@@ -56,16 +59,13 @@ content="Portafolio profesional de Carlos Felipe Gómez, Ingeniero de Sistemas y
 </header>
 
 
-
 <main>
-
 
 <!-- HERO -->
 
 <section class="hero">
 
 <div class="container hero-grid">
-
 
 <!-- TEXTO -->
 
@@ -75,22 +75,24 @@ content="Portafolio profesional de Carlos Felipe Gómez, Ingeniero de Sistemas y
 
 <p class="hero-description">
 
-Soy <strong>Ingeniero de Sistemas y Computación</strong> graduado de la Universidad de Cundinamarca,
-con interés en el desarrollo de software, la automatización de procesos y la gestión de bases de datos.
-Me enfoco en diseñar y desarrollar soluciones tecnológicas eficientes que permitan optimizar procesos,
-mejorar la toma de decisiones y generar valor dentro de las organizaciones mediante el uso de herramientas y arquitecturas modernas.
+Soy <strong>Ingeniero de Sistemas y Computación</strong> graduado de la Universidad de
+Cundinamarca, con interés en el desarrollo de software, la automatización de procesos y la
+gestión de bases de datos.
+
+Me enfoco en diseñar y desarrollar soluciones tecnológicas eficientes que permitan optimizar
+procesos, mejorar la toma de decisiones y generar valor dentro de las organizaciones mediante
+el uso de herramientas y arquitecturas modernas.
 
 </p>
 
 <p class="hero-focus">
 
-Interesado especialmente en áreas como  
-<strong>ciberseguridad</strong>,  
-<strong>inteligencia artificial</strong> y  
+Interesado especialmente en áreas como
+<strong>ciberseguridad</strong>,
+<strong>inteligencia artificial</strong> y
 <strong>desarrollo backend</strong>.
 
 </p>
-
 
 <div class="hero-buttons">
 
@@ -107,22 +109,19 @@ Contactarme
 </div>
 
 
-
-<!-- FOTO -->
+<!-- IMAGEN -->
 
 <div class="hero-img">
-    <img src="images/CollageTec.png" alt="Collage Tecnológico" class="collage-img">
-</div>
 
+<img src="images/CollageTec.png" alt="Collage Tecnológico" class="collage-img">
+
+</div>
 
 </div>
 
 </section>
 
-
-
 </main>
-
 
 
 <!-- FOOTER -->
@@ -145,6 +144,7 @@ Contactarme
 </footer>
 
 
-</body>
+<script src="js/menu.js"></script>
 
+</body>
 </html>
